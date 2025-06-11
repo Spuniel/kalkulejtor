@@ -1,0 +1,40 @@
+* {
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70dvh;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+label,
+label p {
+  padding: 20px;
+}
+
+.firstOption,
+.secondOption {
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow {
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.outpucik {
+  display: flex;
+  justify-content: center;
+}

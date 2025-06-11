@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="main">
+    <label for="number">wpisz liczbę:</label>
+    <input type="number" name="number" /><br />
+
+    <div class="types">
+      <div class="firstOption">
+        <label for="fN">liczba podana w:</label>
+        <select name="fN" id="cars">
+          <option value="b">b</option>
+          <option value="B">B</option>
+          <option value="MB">MB</option>
+          <option value="GB">GB</option>
+          <option value="TB">TB</option>
+        </select>
+      </div>
+
+      <p class="arrow">---&gt;</p>
+
+      <div class="secondOption">
+        <label for="sN">liczba zamieniona na:</label>
+        <select name="sN" id="cars">
+          <option value="b">b</option>
+          <option value="B">B</option>
+          <option value="MB">MB</option>
+          <option value="GB">GB</option>
+          <option value="TB">TB</option>
+        </select>
+      </div>
+    </div>
+    <div class="outpucik">
+      <p class="output">{{ output }}</p>
+    </div>
+  </div>
+</div>
